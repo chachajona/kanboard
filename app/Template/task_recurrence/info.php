@@ -1,4 +1,4 @@
-<div class="markdown">
+<div class="markdown ck-content">
 <ul>
     <?php if ($task['recurrence_status'] == \Kanboard\Model\TaskModel::RECURRING_STATUS_PENDING): ?>
         <li><?= t('Recurrent task is scheduled to be generated') ?></li>

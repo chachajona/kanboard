@@ -46,7 +46,7 @@
         <h2><?= t('Description') ?></h2>
     </div>
 
-    <article class="markdown">
+    <article class="markdown ck-content">
         <?= $this->text->markdown($project['description']) ?>
     </article>
 <?php endif ?>

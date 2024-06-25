@@ -59,7 +59,7 @@ if ($this->user->getRole() === Role::APP_USER && $comment['visibility'] !== Role
     <?php endif ?>
 
     <div class="comment-content">
-        <div class="markdown">
+        <div class="markdown ck-content">
             <?= $this->text->markdown($comment['comment'], isset($is_public) && $is_public) ?>
         </div>
         <div class="reply-content" style="display: none"><?= $this->helper->text->reply($comment['name'] ?: $comment['username'], $comment['comment']) ?></div>

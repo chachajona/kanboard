@@ -6,7 +6,7 @@
                 <?= $this->modal->mediumButton('edit', t('Edit description'), 'ProjectEditController', 'show', array('project_id' => $project['id'])) ?>
             </div>
         <?php endif ?>
-        <article class="markdown">
+        <article class="markdown ck-content">
             <?= $this->text->markdown($project['description']) ?>
         </article>
     </div>

@@ -5,7 +5,7 @@
     <?php if ($file['is_image']): ?>
         <img src="<?= $this->url->href('FileViewerController', 'image', $params) ?>" alt="<?= $this->text->e($file['name']) ?>">
     <?php elseif ($type === 'markdown'): ?>
-        <article class="markdown">
+        <article class="markdown ck-content">
             <?= $this->text->markdown($content) ?>
         </article>
     <?php elseif ($type === 'text'): ?>

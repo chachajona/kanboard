@@ -47,7 +47,7 @@ class TextHelper extends Base
     public function markdown($text, $isPublicLink = false)
     {
         $parser = new Markdown($this->container, $isPublicLink);
-        $parser->setMarkupEscaped(MARKDOWN_ESCAPE_HTML);
+        // $parser->setMarkupEscaped(MARKDOWN_ESCAPE_HTML);
         $parser->setBreaksEnabled(true);
         return $parser->text($text ?: '');
     }

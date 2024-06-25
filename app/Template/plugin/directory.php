@@ -43,7 +43,7 @@
         </tr>
         <tr>
             <td colspan="3">
-                <div class="markdown">
+                <div class="markdown ck-content">
                     <?= $this->text->markdown($plugin['description']) ?>
                 </div>
             </td>

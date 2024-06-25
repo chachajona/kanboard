@@ -10,6 +10,7 @@ class Plugin extends Base
     $cspRules = $this->container['cspRules'];
 
     $this->hook->on('template:layout:js', array('template' => 'plugins/CKEditor/assets/custom.js'));
+    $this->hook->on('template:layout:js', array('template' => 'plugins/CKEditor/assets/ckeditor.js'));
 
     $this->hook->on('template:layout:css', array('template' => 'plugins/CKEditor/assets/ckeditor.css'));
 

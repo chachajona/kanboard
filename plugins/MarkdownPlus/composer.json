@@ -1,6 +1,0 @@
-{
-    "require": {
-        "emojione/emojione": "^4.5",
-        "leblanc-simon/parsedown-checkbox": "^0.0.4"
-    }
-}
